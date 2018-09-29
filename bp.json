@@ -1,0 +1,70 @@
+{
+ "producer_account_name": "eosvolgabpru",
+ "producer_public_key": "EOS57GDRS9QJWBJie9yQAxvrDKw9p6wiiQ9B8Sv2uJ7WazowB4pkK",
+ "org": {
+   "candidate_name": "EOS Volga",
+   "website": "https://eosvolga.one",
+   "code_of_conduct":"https://steemit.com/eos/@eosvolgaone/eos-volga-eos-block-producer-candidate",
+   "ownership_disclosure":"https://steemit.com/eos/@eosvolgaone/eos-volga-ownership",
+   "email":"eosvolga@gmail.com",
+   "branding":{
+     "logo_256":"https://eosvolga.one/eosvolga-logo-256.png",
+     "logo_1024":"https://eosvolga.one/eosvolga-logo-1000.png",
+     "logo_svg":"https://eosvolga.one/eosvolga-logo-1000.svg"
+   },
+   "location": {
+     "name": "Moscow",
+     "country": "RU",
+     "latitude": 55.534934,
+     "longitude": 37.254688
+   },
+   "social": {
+     "steemit": "eosvolgaone",
+     "twitter": "eosvolgabpru",
+     "youtube": "",
+     "facebook": "",
+     "github":"",
+     "reddit": "",
+     "keybase": "",
+     "telegram": "eosvolga",
+     "wechat":""
+   }
+ },
+ "nodes": [
+   {
+     "location": {
+       "name": "Moscow",
+       "country": "RU",
+       "latitude": 55.534934,
+       "longitude": 37.254688
+     },
+     "node_type": "producer",
+     "p2p_endpoint": "",
+     "api_endpoint": "",
+     "ssl_endpoint": ""
+   },
+   {
+     "location": {
+       "name": "Moscow",
+       "country": "RU",
+       "latitude": 55.534934,
+       "longitude": 37.254688
+     },
+     "node_type": "seed",
+     "p2p_endpoint": "185.63.188.226:9876",
+     "bnet_endpoint": "bpapi.eosvolga.one:4321"
+   },
+   {
+     "location": {
+       "name": "Moscow",
+       "country": "RU",
+       "latitude": 55.534934,
+       "longitude": 37.254688
+     },
+     "node_type": "full",
+     "api_endpoint": "http://185.63.188.226",
+     "ssl_endpoint": "https://bp.eosvolga.one"
+   }
+ ]
+}
+
